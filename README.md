@@ -61,6 +61,10 @@ re-Linked replaces the browser's built-in bookmarks bar with a drag-and-drop Kan
 - Auto-fetches website icons via multiple strategies: Google service, direct `/favicon.ico`, HTML parsing.
 - Upload custom icons for domains.
 
+### Privacy Mode
+
+- Press `Ctrl+\` to instantly blur and hide the board — a frosted glass overlay obscures all content. Press again, click, or `Escape` to restore.
+
 ### Themes
 
 - Light / Dark mode with 6 accent shades: Slate, Green, Yellow, Red, Purple, Gray.
@@ -97,13 +101,13 @@ Running as `file:///` imposes browser restrictions:
 
 ## Tech Stack
 
-| Layer    | Technology        |
-| -------- | ----------------- |
-| Runtime  | Vue 3             |
-| Language | TypeScript        |
-| Styles   | TailwindCSS       |
-| Storage  | IndexedDB         |
-| Output   | Single HTML file  |
+| Layer    | Technology       |
+| -------- | ---------------- |
+| Runtime  | Vue 3            |
+| Language | TypeScript       |
+| Styles   | TailwindCSS      |
+| Storage  | IndexedDB        |
+| Output   | Single HTML file |
 
 ---
 
